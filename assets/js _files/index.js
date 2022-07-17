@@ -18,7 +18,6 @@ var incomeOverTime = function( selling_price, time){
 }
 document.getElementById("input1");{
 prompt("Enter selling price and time, separated by a comma");
-
 } 
 // incomeOverTime(45, 7); //Output is "Your weekly income will be Ksh 590940"
 
