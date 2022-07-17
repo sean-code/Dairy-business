@@ -1,6 +1,9 @@
 // alert("My code is working");
 
 //PART ONE
+document.getElementById("input2");{
+    prompt("Enter Shed's data, from A to D, in that order");
+} 
 var shed = ["A 510", "B 308", "C 486", "D 572"];
 for (var i = 0; i < shed.length; i++) {
 
@@ -12,13 +15,13 @@ var totalProduction = (A+B+C+D);
 
 //PART TWO
 //Brookside's buying rate is KSH 45 per litre
+document.getElementById("input2");{
+    prompt("Enter selling price and time, separated by a comma");
+} 
 var incomeOverTime = function( selling_price, time){
     incomeOverTime = (totalProduction * selling_price * time);//Ksh 45 per litre, 7 days in a week 
     console.log("Your weekly income will be Ksh " + incomeOverTime);
 }
-document.getElementById("input1");{
-prompt("Enter selling price and time, separated by a comma");
-} 
 // incomeOverTime(45, 7); //Output is "Your weekly income will be Ksh 590940"
 
 var incomeOverTime = function( selling_price, time){
