@@ -1,0 +1,9 @@
+
+
+.intro{
+    font-size: x-large;
+    background-image: url("../images/cattle.jpg");
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
