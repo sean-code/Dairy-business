@@ -39,14 +39,22 @@ div>h2{
     padding-bottom:10px;
 }
 #input1{
+    background-color:rgb(175, 254, 254);
     padding-top: 10%;
-    text-align: center;
+    text-align: right;
     font-size: larger;
     
 
 }
 #input2{
+    background-color: rgb(175, 254, 254);
     padding-top: 10%;
-    text-align: center;
+    text-align: right;
+    font-size: larger;
+}
+#input3{
+    background-color:rgb(175, 254, 254);
+    padding-top: 10%;
+    text-align: right;
     font-size: larger;
 }
