@@ -10,7 +10,7 @@
 }
 nav>ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-decoration: none;
     list-style: none;
     font-weight: bolder;
@@ -23,10 +23,11 @@ a{
 }
 .intro{
     font-size: x-large;
+    font-weight: 700;
     background-image: url("../images/cattle.jpg");
     background-position: center, center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 80%;
+    padding-top: 30%;
 }
