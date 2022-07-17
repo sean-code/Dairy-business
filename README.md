@@ -8,7 +8,7 @@
 This project involves the development of a function for a Dairy Business.
 The idea is to come up with a function that gives me a report on how much milk is produced per shed and the total milk produced in all of these sheds.
 The Project was done for the purpose of learning and to grasp hands-on practical skills in web development, and mainly to help me practice and understand better the complementary JavaScript concepts covered throughout the week, as part of my Software Engineering journey.
-This work has been deployed on GitHub and can be viewed using this live link https://sean-code.github.io/Dairy-business/
+This work has been deployed on GitHub and can be viewed using this live link sean-code.github.io/dairy-business/
 
 ## Project Setup Instructions
 To start using this project use the following commands:
