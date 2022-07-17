@@ -23,4 +23,7 @@ var incomeOverTime = function( selling_price, time){
     incomeOverTime = (totalProduction * selling_price * time);
     console.log("Your yearly income will be Ksh " + incomeOverTime); //Ksh 45 per litre, Year has 365 days
 }
-incomeOverTime (45, 365); //Output is Your yearly income will be Ksh 30813300
+incomeOverTime (45, 365); //Output is "Your yearly income will be Ksh 30813300"
+
+//PART THREE
+
