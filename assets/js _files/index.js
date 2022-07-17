@@ -12,13 +12,14 @@ var totalProduction = (A+B+C+D);
 
 //PART TWO
 //Brookside's buying rate is KSH 45 per litre
-document.getElementById("input1");{
 var incomeOverTime = function( selling_price, time){
     incomeOverTime = (totalProduction * selling_price * time);//Ksh 45 per litre, 7 days in a week 
     console.log("Your weekly income will be Ksh " + incomeOverTime);
-
-    } 
 }
+document.getElementById("input1");{
+prompt("Enter selling price and time, separated by a comma");
+
+} 
 // incomeOverTime(45, 7); //Output is "Your weekly income will be Ksh 590940"
 
 var incomeOverTime = function( selling_price, time){
