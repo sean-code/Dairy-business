@@ -31,4 +31,12 @@ var incomeOverTime = function( selling_price, time){
 incomeOverTime (45, 365); //Output is "Your yearly income will be Ksh 30813300"
 
 //PART THREE
+var incomePerMonth = (totalProduction * selling_price * days){
+    
+}
+var incomePerMonth = {
+    January: 30,
 
+
+
+}
