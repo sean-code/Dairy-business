@@ -1,9 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-color: beige;
 }
 .main_container{
     background-color: beige;
+    text-align: center;
+    font-size: x-large;
+}
+.navbar{
+    display:inline;
+    text-align: ;
+    background-color: black;
 }
 
 .intro{
@@ -13,4 +21,5 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    padding-top: 80%;
 }
