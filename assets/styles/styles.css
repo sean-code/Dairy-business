@@ -8,10 +8,14 @@
     text-align: center;
     font-size: x-large;
 }
-.navbar{
-    display:inline;
-    text-align: ;
-    background-color: black;
+nav>ul{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: 3%;
 }
 
 .intro{
