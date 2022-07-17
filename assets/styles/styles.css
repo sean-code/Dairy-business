@@ -1,4 +1,10 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main_container{
+    background-color: beige;
+}
 
 .intro{
     font-size: x-large;
