@@ -17,7 +17,10 @@ nav>ul{
     font-size: xx-large;
     padding-top: 3%;
 }
-
+a{
+    color: brown;
+    text-decoration: none;
+}
 .intro{
     font-size: x-large;
     background-image: url("../images/cattle.jpg");
