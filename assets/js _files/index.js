@@ -15,15 +15,16 @@ var totalProduction = (A+B+C+D);
 
 //PART TWO
 //Brookside's buying rate is KSH 45 per litre
-const wk = document.getElementById("input2");{
+const wk = document.getElementById("input2");
    let weeklyIncome = prompt("Enter selling price and time, separated by a comma");
-} 
 var incomeOverTime = function( selling_price, time){
     incomeOverTime = (totalProduction * selling_price * time);//Ksh 45 per litre, 7 days in a week 
     console.log("Your weekly income will be Ksh " + incomeOverTime);
 }
-// incomeOverTime(45, 7); //Output is "Your weekly income will be Ksh 590940"
+incomeOverTime(45, 7); //Output is "Your weekly income will be Ksh 590940"
 
+const yl = document.getElementById("input2");{
+    let yearlyIncome = prompt("Enter selling price and time, separated by a comma");
 var incomeOverTime = function( selling_price, time){
     incomeOverTime = (totalProduction * selling_price * time);
     console.log("Your yearly income will be Ksh " + incomeOverTime); //Ksh 45 per litre, Year has 365 days
@@ -52,5 +53,5 @@ var incomePerMonth = function(selling_price, days){
     console.log("Your income for" + months[i] + incomePerMonth);
     }
 }
-let monthlyIncome = prompt("Enter the month")
-incomePerMonth(45, 30);
+let monthlyIncome = prompt("Enter the month");
+}
