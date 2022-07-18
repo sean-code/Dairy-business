@@ -43,4 +43,4 @@ var incomePerMonth = function(selling_price, days){
     console.log("Your income for" + months.month + incomePerMonth);
     }
 }
-
+};
