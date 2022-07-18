@@ -32,26 +32,15 @@ var incomeOverTime = function( selling_price, time){
 incomeOverTime (45, 365); //Output is "Your yearly income will be Ksh 30813300"
 
 //PART THREE
-var months = [{                  //creating an array within an object
-    January: 30,
-    February: 29,
-    March: 31,
-    April: 30,
-    May: 31,
-    June: 30,
-    July: 31,
-    August: 31,
-    September: 30,
-    October: 31,
-    November: 30,
-    December: 31,
-}]
-const yearly = document.getElementById("input3")
+totalProduction = 1876;
+var months = [{Month: "January", days: 31}, {Month: "February", days:29},{Month: "March", days:31}, 
+    {Month: "April", days: 30}, {Month:"May", days: 31}, {Month:"June", days:30}, {Month:"July", days:31}, {Month: "August", days: 31},
+    {Month: "September", days: 30}, {Month:"October", days:31}, {Month:"November", days:30}, {Month: "December", days:31}]
+
 var incomePerMonth = function(selling_price, days){
-    incomePerMonth = (totalProduction * selling_price * days); 
-    for (var i = 0; i <months.length; i++) {
-    console.log("Your income for" + months[i] + incomePerMonth);
+    incomePerMonth = (totalProduction * selling_price * months.days); 
+    for (var i = 0; i<months.length; i++) {
+    console.log("Your income for" + months.month + incomePerMonth);
     }
 }
-let monthlyIncome = prompt("Enter the month");
-}
+
